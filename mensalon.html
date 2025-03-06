@@ -1,0 +1,345 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALON</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg">
+    <header>
+      <div class="logo">
+        <h1>Salon Booking</h1>
+      </div>
+      <form action="/search" method="get">
+        <label for="search">Search for saloons:</label>
+        <input type="text" id="search" name="query" required />
+        <button type="submit">Search</button>
+      </form>
+      <div class="nav">
+        <a href="./index.html">Home</a>
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button type="submit">Login/Sign Up</button>
+      </div>
+    </header>
+    <div class="slidable-rows">
+      <div class="row">
+        <div class="image-container">
+          <a href="#details1">
+            <img src="./images/mens-haircut.jpg" alt="Image 1" />
+            <div class="image-text">Haircut</div>
+            <div class="image-overlay">
+              <div class="know-more-button">Know More</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="#details2">
+            <img src="./images/mens-shaving.jpg" alt="Image 2" />
+            <div class="image-text">Shaving</div>
+            <div class="image-overlay">
+              <div class="know-more-button">Know More</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="#details3">
+            <img src="./images/mens-massage.jpg" alt="Image 3" />
+            <div class="image-text">Massage</div>
+            <div class="image-overlay">
+              <div class="know-more-button">Know More</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="#details4">
+            <img src="./images/mens-facial.jpg" alt="Image 4" />
+            <div class="image-text">Facial</div>
+            <div class="image-overlay">
+              <div class="know-more-button">Know More</div>
+            </div>
+          </a>
+        </div>
+        <div class="image-container">
+          <a href="#details5">
+            <img src="./images/mens-facial-treatment.jpg" alt="Image 5" />
+            <div class="image-text">Facial Treatment</div>
+            <div class="image-overlay">
+              <div class="know-more-button">Know More</div>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+    <img
+      src="./images/men-bg.jpg"
+      style="
+        filter: brightness(35%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+        z-index: -1;
+      "
+    />
+    <div id="details1">
+      <img src="./images/mens-haircut.jpg" alt="Image 1" />
+      <div class="details-content">
+        <h2>Haircut Details</h2>
+        <p>
+          <b>Buzz Cut</b>
+          <span style="font-size: 12px"
+            >A low-maintenance cut that requires minimal styling. A good option
+            for active boys or those who prefer a no-fuss style.</span
+          >
+        </p>
+        <p>
+          <b>Crew Cut</b>
+          <span style="font-size: 12px"
+            >A classic cut that's short on the sides and back, with a slightly
+            longer top. A low-maintenance style that looks clean and
+            put-together.</span
+          >
+        </p>
+        <p>
+          <b>Undercut</b>
+          <span style="font-size: 12px"
+            >A masculine cut that contrasts the top of the hair with the sides
+            and back. Can be styled in multiple ways and has a youthful
+            appearance.</span
+          >
+        </p>
+        <p>
+          <b>Faux Hawk</b>
+          <span style="font-size: 12px"
+            >A trendy cut that mimics the mohawk but is less dramatic. Has
+            shorter sides and a strip of longer hair from front to back.</span
+          >
+        </p>
+        <p>
+          <b>Mullet</b>
+          <span style="font-size: 12px"
+            >A dynamic fusion of long boy haircuts and short boy haircuts. Often
+            incorporates fade haircuts for boys.</span
+          >
+        </p>
+        <p>
+          <b>Side Part</b>
+          <span style="font-size: 12px"
+            >A traditional style that involves cutting the sides and top of the
+            head. A style that has stood the test of time.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div id="details2">
+      <img src="./images/mens-shaving.jpg" alt="Image 2" />
+      <div class="details-content">
+        <h2>Shaving Details</h2>
+        <p>
+          <b>Wet Shaving</b>
+          <span style="font-size: 12px"
+            >A traditional method of shaving that uses a safety razor or
+            straight razor. Involves lathering the skin with soap or shaving
+            cream before shaving.</span
+          >
+        </p>
+        <p>
+          <b>Dry Shaving</b>
+          <span style="font-size: 12px"
+            >Uses an electric razor, which has rotating blades that don't
+            require shaving cream, soap, or water.</span
+          >
+        </p>
+        <p>
+          <b>Safety Razor</b>
+          <span style="font-size: 12px"
+            >An old-fashioned razor that uses a protective guard to reduce the
+            risk of cuts. A good option for people with sensitive skin.</span
+          >
+        </p>
+        <p>
+          <b>Straight Razor</b>
+          <span style="font-size: 12px"
+            >A knife blade sharpened on a stone to create a sharp wedge. A
+            traditional option that some prefer. Used by professional barbers to
+            create natural texture at the ends of hair.</span
+          >
+        </p>
+        <p>
+          <b>Electrolysis</b>
+          <span style="font-size: 12px"
+            >A hair removal method that should only be performed by a
+            board-certified dermatologist or electrologist. Works best when hair
+            follicles are in the growth phase.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div id="details3">
+      <img src="./images/mens-massage.jpg" alt="Image 3" />
+      <div class="details-content">
+        <h2>Massage Details</h2>
+        <p>
+          <b>Swedish Massage</b>
+          <span style="font-size: 12px"
+            >A relaxing massage that involves long strokes, kneading, and
+            tapping to promote circulation and ease muscle tension.</span
+          >
+        </p>
+        <p>
+          <b>Deep Tissue Massage</b>
+          <span style="font-size: 12px"
+            >A therapeutic massage that targets the deeper layers of muscle and
+            connective tissue to help relieve pain and stiffness.</span
+          >
+        </p>
+        <p>
+          <b>Sports Massage</b>
+          <span style="font-size: 12px"
+            >A specialized massage designed for athletes and individuals who
+            engage in physical activity, helping to improve flexibility, reduce
+            muscle soreness, and enhance performance.</span
+          >
+        </p>
+        <p>
+          <b>Shiatsu Massage</b>
+          <span style="font-size: 12px"
+            >A Japanese massage technique that applies pressure to specific
+            points on the body to balance the flow of energy and promote
+            relaxation.</span
+          >
+        </p>
+        <p>
+          <b>Aromatherapy Massage</b>
+          <span style="font-size: 12px"
+            >A massage that incorporates essential oils to promote relaxation,
+            reduce stress, and improve mood.</span
+          >
+        </p>
+        <p>
+          <b>Hot Stone Massage</b>
+          <span style="font-size: 12px"
+            >A massage that uses heated stones to relax muscles, improve
+            circulation, and reduce tension.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div id="details4">
+      <img src="./images/mens-facial.jpg" alt="Image 4" />
+      <div class="details-content">
+        <h2>Facial Details</h2>
+        <p>
+          <b>Deep Cleansing Facial</b>
+          <span style="font-size: 12px"
+            >A customized facial that deeply cleanses the pores, reducing acne
+            and impurities, and leaving the skin feeling refreshed and
+            revitalized.</span
+          >
+        </p>
+        <p>
+          <b>Anti-Aging Facial</b>
+          <span style="font-size: 12px"
+            >A facial designed to target fine lines, wrinkles, and age spots,
+            using advanced skincare techniques and products to promote collagen
+            production and skin elasticity.</span
+          >
+        </p>
+        <p>
+          <b>Sensitive Skin Facial</b>
+          <span style="font-size: 12px"
+            >A gentle, soothing facial tailored for sensitive skin, using
+            fragrance-free and hypoallergenic products to calm and comfort the
+            skin.</span
+          >
+        </p>
+        <p>
+          <b>Brightening Facial</b>
+          <span style="font-size: 12px"
+            >A facial that targets dull, uneven skin tone, using advanced
+            brightening agents and exfoliating techniques to reveal a brighter,
+            more radiant complexion.</span
+          >
+        </p>
+        <p>
+          <b>Acne Facial</b>
+          <span style="font-size: 12px"
+            >A customized facial designed to target acne-prone skin, using
+            advanced skincare techniques and products to reduce inflammation,
+            prevent breakouts, and promote clear skin.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div id="details5">
+      <img src="./images/mens-facial-treatment.jpg" alt="Image 5" />
+      <div class="details-content">
+        <h2>Facial Treatment Details</h2>
+        <p>
+          <b>Microdermabrasion</b>
+          <span style="font-size: 12px"
+            >A non-invasive exfoliating treatment that removes dead skin cells,
+            smoothens out fine lines and wrinkles, and improves skin
+            texture.</span
+          >
+        </p>
+        <p>
+          <b>Chemical Peel</b>
+          <span style="font-size: 12px"
+            >A treatment that uses a solution to remove the top layers of the
+            skin, reducing the appearance of fine lines, wrinkles, and
+            hyperpigmentation.</span
+          >
+        </p>
+        <p>
+          <b>Facial Steaming</b>
+          <span style="font-size: 12px"
+            >A treatment that uses steam to open up the pores, loosen blackheads
+            and whiteheads, and improve skin clarity.</span
+          >
+        </p>
+        <p>
+          <b>Extraction Facial</b>
+          <span style="font-size: 12px"
+            >A treatment that involves manually removing blackheads, whiteheads,
+            and other impurities from the skin, leaving it feeling clean and
+            refreshed.</span
+          >
+        </p>
+        <p>
+          <b>LED Light Therapy</b>
+          <span style="font-size: 12px"
+            >A non-invasive treatment that uses different wavelengths of light
+            to target various skin concerns, such as acne, aging, and
+            hyperpigmentation.</span
+          >
+        </p>
+        <p>
+          <b>Microneedling</b>
+          <span style="font-size: 12px"
+            >A minimally invasive treatment that uses tiny needles to create
+            micro-injuries in the skin, stimulating collagen production and
+            improving skin texture.</span
+          >
+        </p>
+      </div>
+    </div>
+    <div class="images">
+      <h1>what we provide:</h1>
+      <div>
+        <img src="./images/women.jpg" alt="Image 2" />
+        <a href="./womensalon.html"><button id="btn2">WOMENS SALON</button></a>
+      </div>
+      <div>
+        <img src="./images/unisex.jpg" alt="Image 3" />
+        <a href="./unisexsalon.html"></a><button id="btn3">UNISEX SALON</button></a>
+      </div>
+    </div>
+    <button id="top-btn" onclick="toTop()">Top</button>
+
+    <script src="script.js"></script>
+  </body>
+</html>

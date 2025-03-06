@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SALON</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="bg">
+    <header>
+      <div class="logo">
+        <h1>Salon Booking</h1>
+      </div>
+      <form action="/search" method="get">
+        <label for="search">Search for saloons:</label>
+        <input
+          type="text"
+          id="search"
+          name="query"
+          placeholder="Type your search here"
+          required
+        />
+        <button type="submit">Search</button>
+      </form>
+      <div class="nav">
+        <a href="#services">Services</a>
+        <a href="#contact">Contact</a>
+        <button type="submit">Login/Sign Up</button>
+      </div>
+    </header>
+
+    <div class="topimg">
+      <img src="./images/bg.jpg" />
+      <div class="hero-text">
+        <h2>Welcome to Our Salon</h2>
+        <p>Book your next salon appointment with just a few clicks!</p>
+        <a href="#book" class="bkn">Book Now</a>
+      </div>
+    </div>
+
+    <div class="images">
+      <h1>what we provide:</h1>
+      <div>
+        <img src="./images/men.jpg" alt="Image 1" />
+        <button id="btn1">MENS SALON</button>
+      </div>
+
+      <div>
+        <img src="./images/women.jpg" alt="Image 2" />
+        <button id="btn2">WOMENS SALON</button>
+      </div>
+
+      <div>
+        <img src="./images/unisex.jpg" alt="Image 3" />
+        <button id="btn3">UNISEX SALON</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
